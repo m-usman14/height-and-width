@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Min-Height & Max-Height</title>
+    <style>
+        #first {
+            width: 700px;
+            min-height: 200px; /* You can replace with max-height if desired */
+            border: 1px solid red;
+            padding: 10px;
+            overflow: auto; /* Enables scrolling if content exceeds max-height */
+        }
+    </style>
+</head>
+
+<body>
+    <h1>trial : CSS Min-Height & Max-Height</h1>
+
+    <div id="first">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.<br>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc elit dolor, ornare vel.<br>
+    </div>
+</body>
+</html>
